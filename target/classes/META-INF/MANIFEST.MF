@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1430310298143
+Build-Jdk: 1.8.0_45
+Built-By: DrWrong
+Bundle-Activator: tk.drwrong.server.osgi.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello world Bundle Service
+Bundle-SymbolicName: tk.drwrong.helloWorld-server
+Bundle-Version: 0.0.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: tk.drwrong.server.osgi;uses:="org.osgi.framework";versio
+ n="0.0.2"
+Export-Service: tk.drwrong.server.osgi.IHelloWorldSvc
+Import-Package: org.osgi.framework;version="[1.5,2)",org.osgi.service.bl
+ ueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
